@@ -1,0 +1,16 @@
+.login h1 {
+  color: rgb(255,255,255);
+  font-size: 45px;
+  font-family: Palatino;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(0,0,0,0.9)
+}
+
+.login label {
+  color: rgb(255,255,255);
+  font-size: 18px;
+  font-family: Palatino;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(0,0,0,1)
+  
+}

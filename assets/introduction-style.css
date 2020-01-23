@@ -1,0 +1,13 @@
+.intro h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Palatino;
+  text-align: left;
+  text-shadow: 0 0 3px rgb(0,0,0), 0 0 6px rgb(50,50,50);
+}
+
+.intro p {
+  color: white;
+  font-size: 25px;
+  font-family: palatino;
+}

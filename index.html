@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/heropage-style.css">
+		<link rel="stylesheet" href="assets/footer-style.css">
+		<link rel="stylesheet" href="assets/introduction-style.css">
+		<link rel="stylesheet" href="assets/login.css">
+		<link rel="stylesheet" href="assets/booking.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script>
+		    $(document).ready(function(){
+			$("#title").css('opacity', 0)
+			$("#sub").css('opacity', 0)
+			$("#title1").css('opacity', 0)
+			$("#sub1").css('opacity', 0)
+			$("#btn").css('opacity', 0)
+			$("#nav").css('opacity', 0)
+			$("#title").slideDown(1000)
+  			$("#title").animate(
+    				{opacity: 1},
+    				{queue: false, duration:2000}
+  			);
+			$("#sub").slideDown(2000)
+  			$("#sub").animate(
+    				{opacity: 1},
+    				{queue: false, duration:3000}
+  			);
+			$("#title1").slideDown(1000)
+  			$("#title1").animate(
+    				{opacity: 1},
+    				{queue: false, duration:2000}
+  			);
+			$("#sub1").slideDown(2000)
+  			$("#sub1").animate(
+    				{opacity: 1},
+    				{queue: false, duration:3000}
+  			);
+			$("#btn").slideDown(3000)
+  			$("#btn").animate(
+    				{opacity: 0.8},
+    				{queue: false, duration:4000}
+  			);
+  			$("#nav").animate(
+    				{opacity: 1},
+    				{queue: false, duration:1500}
+  			);
+		    });
+		</script>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset:"450">
+		<nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<a class="navbar-brand" href="#section1">Eastern Florida Airline</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse justify-content-between" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#section2">
+							<nobr>About Us</nobr>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section3">
+							<nobr>Login</nobr>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section4">
+							<nobr>Book Flights</nobr>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section5">
+							<nobr>More Info</nobr>
+						</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav navbar-right">
+					<li>
+						<form class="form-inline navbar-toggleable" action="">
+							<div class="d-flex justify-content-end">
+								<input class="form-control mr-sm-1" type="text" style="margin-top:2px" placeholder="Search Flights">
+								<button class="btn btn-secondary" type="submit" style="margin-top:2px"><a href="#section4" style="color:white;text-underline:initial;padding-top:13px;padding-bottom:13px;"
+									 data-offset="100">Go</a></button>
+							</div>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="section1" class="container-fluid hero-image rolling">
+			<div class="hero-text">
+				<h1 id="title" class="d-none d-sm-block" style="display:none;font-size:58px;font-family: economica;text-shadow:2px 2px 2px #000000, 2px 2px 3px #f7e6ff;">Eastern Florida
+					Airline</h1>
+				<h2 id="title1" class="d-block d-sm-none" style="display:none;font-size:52px;font-family: economica;text-shadow:1px 1px 2px #000000, 2px 2px 3px #f7e6ff;">Eastern Florida
+					Airline</h2>
+				<p id="sub" class="d-none d-sm-block" style="display:none;text-shadow:1px 1px 2px rgb(0,0,0);">Quick and Affordable trips to the Sunshine State!</p>
+				<p id="sub1" class="d-block d-sm-none" style="display:none;text-shadow:1px 1px 2px rgb(0,0,0);font-size:19px;">Quick and Affordable trips to the Sunshine State!</p>
+				<div class="d-none d-sm-block" style="padding-top:20px"></div>
+				<a id="btn" class="btn btn-lg btn-secondary" style="display:none;;margin-top:18px;" role="button" href="#section4">Book
+					now >></a>
+			</div>
+		</div>
+
+		<div id="section2" class="container-fluid intro rolling" style="background-image:linear-gradient(rgba(240, 220, 220, 0.4), rgba(0, 0, 0, 0.01)), url('assets/intro.jpg'); background-position:center;background-repeat:no-repeat;position:relative;border-width:5px;border-top-style:solid;border-color:rgb(240,240,240)">
+			<div class="row" style="padding-top:80px"></div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<h1 style="margin-left:20px"><nobr>About us</nobr></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="d-none d-sm-block col-sm-1">
+					<p style="margin-left:20px;font-size:20px;text-shadow: 0 0 6px rgba(0,0,0,0.9);"><b>___________________________</b></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<p style="margin-right:40px;padding-top:40px;padding-bottom:40px;padding-left:25px;padding-right:25px;margin-top:40px;margin-bottom:30px;background-color:rgba(232, 232, 232, 0.24);text-shadow: 3px 3px 2px rgb(0,0,0);">-
+						We offer ticket booking service for traveling outside and inside of Florida. <br><br>- Providing consumers with avaliable and affordable tickets is 
+						our core value. <br><br>- The website is very efficient and user friendly where the users can book their ticket just in a few clicks.<br><br>
+						- We also have discount and frequent flyer progerams that both old and new customers can benefit from. </p>
+				</div>
+				<div class="col-md-4">
+					<p style="margin-left:40px;padding-top:40px;padding-bottom:40px;padding-left:25px;padding-right:25px;margin-top:40px;margin-bottom:30px;background-color:rgba(232, 232, 232, 0.24);text-shadow: 3px 3px 2px rgb(0,0,0);">-
+						Eastern Florida Airlines was registered in 2019 with two billion registered capital. <br><br>- Our company is a
+						partnership business with more than 5000 workers. <br><br>- All air services are offered by modern brand
+						planes that give maximum protection for the passengers.</p>
+				</div>
+			</div>
+			<div class="row" style="padding-bottom: 130px;"></div>
+		</div>
+
+		<div id="section3" class="container-fluid login rolling" style="background-image: url('assets/login.jpg'); background-position:center;background-repeat:no-repeat;position:relative;border-width:5px;border-top-style:solid;border-color:rgb(240,240,240)">
+			<div class="row" style="padding-top:80px;">
+				<div class="col-md-1"></div>
+				<div class="col-md-4">
+					<h1 style="padding-top:170px;padding-bottom:20px;">Login</h1>
+					<form style="align-items:center">
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password" placeholder="Password" required>
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="remember">
+							<label class="form-check-label" for="remember">Remember me</label>
+						</div>
+						<button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:180px;">Submit</button>
+					</form>
+				</div>
+				<div class="col-md-2" style="align-items:center">
+					<div class="d-none d-md-block" style="border-left:2px solid white;height:80%;position:absolute;left:50%;margin-top:60px"></div>
+				</div>
+				<div class="col-md-4">
+					<h1 style="padding-top:80px;padding-bottom:20px;">Sign up</h1>
+					<form style="align-items:center">
+						<div class="form-group">
+							<label for="newName">Your username</label>
+							<input type="name" class="form-control" id="newName" placeholder="John S" required>
+						</div>
+						<div class="form-group">
+							<label for="newEmail">Register with your email address</label>
+							<input type="email" class="form-control" id="newEmail" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="newPassword" placeholder="Password" required>
+						</div>
+						<div class="form-group">
+							<label for="password">Confirm Password</label>
+							<input type="password" class="form-control" id="confPassword" placeholder="Confirm Password" required>
+						</div>
+						<div class="form-group">
+							<label for="birthdate">Birthdate</label>
+							<input type="birthdate" class="form-control" id="birthdate" placeholder="01/Jan/1999" required>
+						</div>
+						<button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:180px;">Submit</button>
+					</form>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row" style="padding:40px"></div>
+		</div>
+
+		<div id="section4" class="container-fluid booking rolling" style="background-image:url('assets/blurredhouse.jpg');background-position:center;background-repeat:no-repeat;position:relative;border-width:5px;border-top-style:solid;border-color:rgb(240,240,240)">
+			<div class="row" style="padding-top: 80px"></div>
+			<div class="row">
+				<div class="col-lg-1 col-md-2 col-sm-3"></div>
+				<div class="col-lg-10 col-md-8 col-sm-6">
+					<h1 class="text-center">Book your flights right now!</h1>
+				</div>
+			</div>
+			<div class="container" style="padding:-10px;margin-top:20px;padding-bottom:70px;margin-bottom:40px;background-color:rgba(220,220,220,0.3);">
+				<div class="row" style="padding-top:80px;">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<p>From:</p>
+					</div>
+					<div class="col-5">
+						<p>To:</p>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row" style="padding-bottom:40px;">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<select name="states" class="custom-select">
+							<option selected>-none-</option>
+							<option value="Florida">Florida</option>
+							<option value="Georgia">Georgia</option>
+							<option value="South Carolina">South Carolina</option>
+							<option value="Alabama">Alabama</option>
+							<option value="New York">New York</option>
+							<option value="Seattle">South Carolina</option>
+							<option value="Kansas">Kansas</option>
+							<option value="Chicago">Chicago</option>
+						</select>
+					</div>
+					<div class="col-5">
+						<select name="states" class="custom-select">
+							<option selected>-none-</option>
+							<option value="Florida">Florida</option>
+							<option value="Georgia">Georgia</option>
+							<option value="South Carolina">South Carolina</option>
+							<option value="Alabama">Alabama</option>
+							<option value="New York">New York</option>
+							<option value="Seattle">South Carolina</option>
+							<option value="Kansas">Kansas</option>
+							<option value="Chicago">Chicago</option>
+						</select>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row" style="padding-top:40px;padding-bottom:40px">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<p>Starting in:</p>
+					</div>
+					<div class="col-5">
+						<p>Until:</p>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row" style="margin-top:-30px;padding-bottom:20px">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<select name="startmonth" class="custom-select">
+							<option>-start month-</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+						</select>
+					</div>
+					<div class="col-5">
+						<select name="endmonth" class="custom-select">
+							<option>-end month-</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+							<option>Apr</option>
+							<option>May</option>
+							<option>Jun</option>
+							<option>Jul</option>
+							<option>Aug</option>
+							<option>Sep</option>
+							<option>Oct</option>
+							<option>Nov</option>
+							<option>Dec</option>
+						</select>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row" style="padding-bottom:20px">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<select name="startdate" class="custom-select">
+							<option>-start date-</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+						</select>
+					</div>
+					<div class="col-5">
+						<select name="enddate" class="custom-select">
+							<option>-end date-</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+						</select>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row" style="padding-bottom:20px">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<select name="starttime" class="custom-select">
+							<option>-start time-</option>
+							<option>0:00 AM</option>
+							<option>0:30 AM</option>
+							<option>1:00 AM</option>
+							<option>1:30 AM</option>
+							<option>2:00 AM</option>
+							<option>2:30 AM</option>
+							<option>3:00 AM</option>
+							<option>3:30 AM</option>
+							<option>4:00 AM</option>
+							<option>4:30 AM</option>
+							<option>5:00 AM</option>
+							<option>5:30 AM</option>
+							<option>6:00 AM</option>
+							<option>6:30 AM</option>
+							<option>7:00 AM</option>
+							<option>7:30 AM</option>
+							<option>8:00 AM</option>
+							<option>8:30 AM</option>
+							<option>9:00 AM</option>
+							<option>9:30 AM</option>
+							<option>10:00 AM</option>
+							<option>10:30 AM</option>
+							<option>11:00 AM</option>
+							<option>11:30 AM</option>
+							<option>12:00 AM</option>
+							<option>0:30 PM</option>
+							<option>1:00 PM</option>
+							<option>1:30 PM</option>
+							<option>2:00 PM</option>
+							<option>2:30 PM</option>
+							<option>3:00 PM</option>
+							<option>3:30 PM</option>
+							<option>4:00 PM</option>
+							<option>4:30 PM</option>
+							<option>5:00 PM</option>
+							<option>5:30 PM</option>
+							<option>6:00 PM</option>
+							<option>6:30 PM</option>
+							<option>7:00 PM</option>
+							<option>7:30 PM</option>
+							<option>8:00 PM</option>
+							<option>8:30 PM</option>
+							<option>9:00 PM</option>
+							<option>9:30 PM</option>
+							<option>10:00 PM</option>
+							<option>10:30 PM</option>
+							<option>11:00 PM</option>
+							<option>11:30 PM</option>
+						</select>
+					</div>
+					<div class="col-5">
+						<select name="endtime" class="custom-select">
+							<option>-end time-</option>
+							<option>0:00 AM</option>
+							<option>0:30 AM</option>
+							<option>1:00 AM</option>
+							<option>1:30 AM</option>
+							<option>2:00 AM</option>
+							<option>2:30 AM</option>
+							<option>3:00 AM</option>
+							<option>3:30 AM</option>
+							<option>4:00 AM</option>
+							<option>4:30 AM</option>
+							<option>5:00 AM</option>
+
+							<option>5:30 AM</option>
+							<option>6:00 AM</option>
+							<option>6:30 AM</option>
+							<option>7:00 AM</option>
+							<option>7:30 AM</option>
+							<option>8:00 AM</option>
+							<option>8:30 AM</option>
+							<option>9:00 AM</option>
+							<option>9:30 AM</option>
+							<option>10:00 AM</option>
+							<option>10:30 AM</option>
+							<option>11:00 AM</option>
+							<option>11:30 AM</option>
+							<option>12:00 AM</option>
+							<option>0:30 PM</option>
+							<option>1:00 PM</option>
+							<option>1:30 PM</option>
+							<option>2:00 PM</option>
+							<option>2:30 PM</option>
+							<option>3:00 PM</option>
+							<option>3:30 PM</option>
+							<option>4:00 PM</option>
+							<option>4:30 PM</option>
+							<option>5:00 PM</option>
+							<option>5:30 PM</option>
+							<option>6:00 PM</option>
+							<option>6:30 PM</option>
+							<option>7:00 PM</option>
+							<option>7:30 PM</option>
+							<option>8:00 PM</option>
+							<option>8:30 PM</option>
+							<option>9:00 PM</option>
+							<option>9:30 PM</option>
+							<option>10:00 PM</option>
+							<option>10:30 PM</option>
+							<option>11:00 PM</option>
+							<option>11:30 PM</option>
+						</select>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row" style="padding-top:30px;padding-bottom:20px">
+					<div class="col-1 "></div>
+					<div class="col-10" style="align-items:center;">
+						<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#result" aria-expanded="false"
+						 aria-controls="result">
+							<a href="#result" style="color:white;text-underline:initial;padding-top:13px;padding-bottom:13px;" data-offset="100">Search</a>
+						</button>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row collapse" id="result">
+					<div class="col-1"></div>
+					<div class="col-5" style="margin-top:30px">
+						<div class="card">
+							<img class="card-img-top" src="assets/North.jpg">
+							<div class="card-body">
+								<h3 class="d-none d-md-block card-title">Florida - North Carolina</h3>
+								<h6 class="d-block d-md-none card-title">Florida - North Carolina</h6>
+								<p class="card-text">$242</p>
+								<a href="#" class="btn btn-primary">Book</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-5" style="margin-top:30px">
+						<div class="card">
+							<img class="card-img-top" src="assets/Georgia.jpg">
+							<div class="card-body">
+								<h3 class="d-none d-md-block card-title">Florida - Georgia</h3>
+								<h6 class="d-block d-md-none card-title">Florida - Georgia</h6>
+								<p class="card-text">$230</p>
+								<a href="#" class="btn btn-primary">Book</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row collapse" id="result">
+					<div class="col-1"></div>
+					<div class="col-5" style="margin-top:30px">
+						<div class="card">
+							<img class="card-img-top" src="assets/Chicago.jpg">
+							<div class="card-body">
+								<h3 class="d-none d-md-block card-title">Florida - Chicago</h3>
+								<h6 class="d-block d-md-none card-title">Florida - Chicago</h6>
+								<p class="card-text">$248</p>
+								<a href="#" class="btn btn-primary">Book</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-5" style="margin-top:30px">
+						<div class="card">
+							<img class="card-img-top" src="assets/NY.jpg">
+							<div class="card-body">
+								<h3 class="d-none d-md-block card-title">Florida - New York</h3>
+								<h6 class="d-block d-md-none card-title">Florida - New York</h6>
+								<p class="card-text">$252</p>
+								<a href="#" class="btn btn-primary">Book</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row collapse" id="result">
+					<div class="col-1"></div>
+					<div class="col-5" style="margin-top:30px">
+						<div class="card">
+							<img class="card-img-top" src="assets/Alabama.jpg">
+							<div class="card-body">
+								<h3 class="d-none d-md-block card-title">Florida - Alabama</h3>
+								<h6 class="d-block d-md-none card-title">Florida - Alabama</h6>
+								<p class="card-text">$217</p>
+								<a href="#" class="btn btn-primary">Book</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-5" style="margin-top:30px">
+						<div class="card">
+							<img class="card-img-top" src="assets/Kansas.jpg">
+							<div class="card-body">
+								<h3 class="d-none d-md-block card-title">Florida - Kansas</h3>
+								<h6 class="d-block d-md-none card-title">Florida - Kansas</h6>
+								<p class="card-text">$256</p>
+								<a href="#" class="btn btn-primary">Book</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+			<div class="row" style="padding-bottom:80px"></div>
+		</div>
+
+		<div id="section5" class="container-fluid footer" style="border-top-width:5px;border-top-style:double;border-top-color:rgb(10,10,10);">
+			<div class="row upper" style="padding-top:80px;padding-bottom:60px;background-color:rgb(218,218,218);">
+				<div class="col-md-1"></div>
+				<div class="col-md-4">
+					<h1 style="border-width:4px;border-bottom-style:double;border-color:rgb(180,180,180);padding-bottom:20px;">Links</h1>
+					<p></p>
+					<a href="https://travel.usnews.com/Destinations/USA" target="_blank">The ultimate travel guide</a>
+					<p></p>
+					<a href="https://www.youtube.com/watch?v=nn7LVbibj3I" target="_blank">How to board a plane</a>
+					<p></p>
+					<a href="https://www.youtube.com/watch?v=8lSbPWn_6R4" target="_blank">Boarding safty music dance</a>
+					<p></p>
+					<a href="https://www.quora.com/What-is-your-weirdest-experience-traveling-by-air" target="_blank">Stories</a>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<h1 style="border-width:4px;border-bottom-style:double;border-color:rgb(180,180,180);padding-bottom:20px;">Info</h1>
+					<p></p>
+					<a href="Transportation.html">Transportation Condition</a>
+					<p></p>
+					<a href="Customer.html">Customer Service</a>
+					<p></p>
+					<a href="vip.html">Frequent Flyer Program</a>
+					<p></p>
+					<a href="privacy.html">Privacy Policy</a>
+					<p></p>
+					<a href="job.html">Join Us</a>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row" style="background-color:black;border-width:5px;border-top-style:double;border-color:rgb(180,180,180);padding:14px;padding-top:25px;">
+				<div class="col-1" style="color:rgb(140,140,140);">
+					<p>EasterFloridaAirline <nobr>Delray Beach Florida</nobr> 33484</p>
+				</div>
+				<div class="col-md-9 col-lg-10"></div>
+				<div class="col-2 col-lg-1"><a href="https://facebook.com" target="_blank"><img src="assets/FB.png"></a><a href="https://twitter.com"
+					 target="_blank"><img src="assets/TT.png"></a><a href="https://instagram.com" target="_blank"><img src="assets/IS.png"></a></div>
+			</div>
+		</div>
+	</body>
+</html>

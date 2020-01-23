@@ -1,0 +1,17 @@
+.booking h1 {
+  color: rgb(255,255,255);
+  font-size: 40px;
+  font-family: "palatino linotype";
+  text-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
+
+.booking h1:hover {
+	color: rgb(210,200,190);
+}
+
+.booking p {
+  color: rgb(255,255,255);
+  font-size: 24px;
+  font-family: palatino;
+  text-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
